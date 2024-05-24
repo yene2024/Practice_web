@@ -359,7 +359,7 @@ body {
     font-size: 64px;
     line-height: 77px;
     color: #FFFFFF;
-    top: 45%; /* Centramos verticalmente dentro del contenedor */
-    left: 50%; /* Centramos horizontalmente dentro del contenedor */
+    top: 20%; /* Centramos verticalmente dentro del contenedor */
+    left: 75%; /* Centramos horizontalmente dentro del contenedor */
     transform: translate(-50%, -50%); /* Ajuste para centrar el texto */
 }
