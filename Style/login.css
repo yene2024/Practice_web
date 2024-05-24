@@ -341,11 +341,11 @@ body {
 }
 .new-class-2 {
     position: absolute;
-    width: 500px;
-    height: 750px;
-    background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
-    border-radius: 35px;
-    top: 20%; /* Ajustamos la posición verticalmente */
-    right: 10%; /* Posicionamos a la derecha */
-    transform: translate(50%, -50%); /* Corregimos la posición para centrar */
+        width: 500px;
+        height: 750px;
+        background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
+        border-radius: 35px;
+        top: 20%; /* Ajustamos la posición verticalmente */
+        right: 10%; /* Posicionamos a la derecha */
+        transform: translate(50%, -50%); /* Corregimos la posición para centrar */
 }
