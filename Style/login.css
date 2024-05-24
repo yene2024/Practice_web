@@ -360,6 +360,6 @@ body {
     line-height: 77px;
     color: #FFFFFF;
     top: 45%; /* Centramos verticalmente dentro del contenedor */
-    left: 20%; /* Centramos horizontalmente dentro del contenedor */
+    left: 50%; /* Centramos horizontalmente dentro del contenedor */
     transform: translate(-50%, -50%); /* Ajuste para centrar el texto */
 }
