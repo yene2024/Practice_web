@@ -349,3 +349,17 @@ body {
         right: 10%; /* Posicionamos a la derecha */
         transform: translate(50%, -50%); /* Corregimos la posición para centrar */
 }
+.text-style {
+    position: absolute;
+    width: 671px;
+    height: 77px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    top: 50%; /* Centramos verticalmente dentro del contenedor */
+    left: 50%; /* Centramos horizontalmente dentro del contenedor */
+    transform: translate(-50%, -50%); /* Ajuste para centrar el texto */
+}
