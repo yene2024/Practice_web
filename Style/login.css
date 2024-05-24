@@ -326,8 +326,8 @@ body {
 }
 .new-class {
     position: absolute; /* Añadimos posición absoluta */
-            width: 550px; /* Ancho del elemento */
-            height: 400px; /* Alto del elemento */
+            width: 750px; /* Ancho del elemento */
+            height: 650px; /* Alto del elemento */
             background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
             border-radius: 35px;
             display: flex; /* Flexbox para alinear logo y texto */
@@ -337,5 +337,5 @@ body {
             font-family: Inter;
             font-weight: 400;
             margin-top: calc(50vh - 200px); /* Margen superior para centrar verticalmente */
-            margin-left: 100px; /* Margen izquierdo para ajustar la posición */
+            margin-left: 300px; /* Margen izquierdo para ajustar la posición */
 }
