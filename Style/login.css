@@ -326,8 +326,8 @@ body {
 }
 .new-class {
     position: absolute;
-    width: 100px;
-    height: 90px;
+    width: 500px;
+    height: 450px;
     background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
     border-radius: 35px;
 }
