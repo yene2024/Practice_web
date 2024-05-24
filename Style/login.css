@@ -355,11 +355,11 @@ body {
     height: 77px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 64px;
     line-height: 77px;
     color: #FFFFFF;
-    top: 50%; /* Centramos verticalmente dentro del contenedor */
-    left: 50%; /* Centramos horizontalmente dentro del contenedor */
+    top: 45%; /* Centramos verticalmente dentro del contenedor */
+    left: 20%; /* Centramos horizontalmente dentro del contenedor */
     transform: translate(-50%, -50%); /* Ajuste para centrar el texto */
 }
