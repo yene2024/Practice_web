@@ -324,3 +324,10 @@ body {
     background: url('../images/IMG_4002.png');
     background-size: cover; /* Asegura que la imagen cubra todo el elemento */
 }
+.new-class {
+    position: absolute;
+    width: 1655px;
+    height: 2752px;
+    background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
+    border-radius: 35px;
+}

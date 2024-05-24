@@ -13,6 +13,7 @@
         }
 
         #root {
+            position: relative; /* Añadimos posición relativa al contenedor */
             width: 100vw; /* Ancho del viewport */
             height: 100vh; /* Alto del viewport */
             display: flex; /* Flexbox para centrar contenido */
@@ -28,6 +29,11 @@
         }
 
         .content {
+            position: absolute; /* Añadimos posición absoluta */
+            width: 1655px; /* Ancho del elemento */
+            height: 2752px; /* Alto del elemento */
+            background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
+            border-radius: 35px;
             display: flex; /* Flexbox para alinear logo y texto */
             align-items: center; /* Alineamos verticalmente */
             color: white;
