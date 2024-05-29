@@ -394,8 +394,8 @@ body {
 }
 
 .rectangle {
-    width: 500px;
-    height: 209px;
+    width: 300px;
+    height: 100px;
     background: #D9D9D9;
     border-radius: 35px;
 }
