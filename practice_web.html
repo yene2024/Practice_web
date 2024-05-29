@@ -8,64 +8,86 @@
         body {
             font-family: Verdana;
             color: #333;
-            margin: 0; /* Eliminamos el margen predeterminado */
+            margin: 0;
             padding: 0;
-            position: relative; /* Añadimos posición relativa para posicionar los elementos absolutos */
+            position: relative;
         }
 
         #root {
-            width: 100vw; /* Ancho del viewport */
-            height: 100vh; /* Alto del viewport */
-            display: flex; /* Flexbox para centrar contenido */
-            justify-content: flex-start; /* Alineamos el contenido al inicio */
-            align-items: flex-start; /* Alineamos el contenido arriba */
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
             background: linear-gradient(105deg, #38054A 0%, rgba(39, 17, 128, 0.85) 11%, rgba(45, 0, 104, 0.83) 15%, rgba(31, 14, 112, 0.90) 24%, rgba(46, 0, 104, 0.89) 31%, rgba(32, 15, 112, 0.89) 60%, rgba(46, 0, 104, 0.90) 70%, rgba(42, 9, 116, 0.89) 86%, rgba(39, 18, 128, 0.88) 90%, #38054A 97%);
         }
 
         .logo {
-            width: 100px; /* Tamaño del logo */
-            height: auto; /* Altura automática */
-            margin-right: 20px; /* Espacio entre el logo y el texto */
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
         }
 
         .content {
-            position: relative; /* Añadimos posición relativa para mantener el flujo */
-            display: flex; /* Flexbox para alinear logo y texto */
-            align-items: center; /* Alineamos verticalmente */
+            position: relative;
+            display: flex;
+            align-items: center;
             color: white;
             font-size: 24px;
             font-family: Inter;
             font-weight: 400;
-            margin-top: 20px; /* Margen superior para separar del borde superior */
-            margin-left: 20px; /* Margen izquierdo para ajustar la posición */
+            margin-top: 20px;
+            margin-left: 20px;
         }
 
-        /* Estilos para el elemento aparte */
         .separate-element {
             position: absolute;
             width: 500px;
             height: 750px;
             background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
             border-radius: 35px;
-            top: 45%; /* Ajustamos la posición verticalmente */
-            left: 10%; /* Ajustamos la posición horizontalmente */
-            transform: translate(-50%, -50%); /* Corregimos la posición para centrar */
-            margin-top: calc(50vh - 375px); /* Margen superior para centrar verticalmente */
-            margin-left: 300px; /* Margen izquierdo para ajustar la posición */
+            top: 45%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            margin-top: calc(50vh - 375px);
+            margin-left: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
 
-        /* Estilos para el segundo elemento aparte */
         .second-separate-element {
             position: absolute;
             width: 800px;
             height: 750px;
             background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
             border-radius: 35px;
-            top: 45%; /* Ajustamos la posición verticalmente */
-            right: 10%; /* Posicionamos a la derecha */
-            transform: translate(50%, -50%); /* Corregimos la posición para centrar */
-            margin-top: calc(50vh - 375px); /* Margen superior para centrar verticalmente */
-            margin-right: 450px; /* Margen izquierdo para ajustar la posición */
+            top: 45%;
+            right: 10%;
+            transform: translate(50%, -50%);
+            margin-top: calc(50vh - 375px);
+            margin-right: 450px;
+        }
+
+        .text-style {
+            width: 671px;
+            height: 77px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 77px;
+            color: #FFFFFF;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .rectangle {
+            width: 995px;
+            height: 209px;
+            background: #D9D9D9;
+            border-radius: 35px;
         }
     </style>
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
@@ -75,12 +97,13 @@
     <div id="root">
         <div class="content">
             <img src="/home/yeneishla/Downloads/IMG_4002.png" alt="Logo" class="logo">
-            <div>
-                Level You
-            </div>
+            <div>Level You</div>
         </div>
         <!-- Primer elemento aparte -->
-        <div class="separate-element"></div>
+        <div class="separate-element">
+            <div class="text-style">Texto en el primer elemento</div>
+            <div class="rectangle"></div>
+        </div>
         <!-- Segundo elemento aparte -->
         <div class="second-separate-element"></div>
     </div>

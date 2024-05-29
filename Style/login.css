@@ -363,3 +363,39 @@ body {
     left: 95%; /* Centramos horizontalmente dentro del contenedor */
     transform: translate(-50%, -50%); /* Ajuste para centrar el texto */
 }
+.separate-element {
+    position: absolute;
+    width: 500px;
+    height: 750px;
+    background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
+    border-radius: 35px;
+    top: 45%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    margin-top: calc(50vh - 375px);
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-style {
+    width: 671px;
+    height: 77px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rectangle {
+    width: 995px;
+    height: 209px;
+    background: #D9D9D9;
+    border-radius: 35px;
+}
