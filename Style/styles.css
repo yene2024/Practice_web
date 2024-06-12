@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: Verdana;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: linear-gradient(105deg, #38054A 0%, rgba(39, 17, 128, 0.85) 11%, rgba(45, 0, 104, 0.83) 15%, rgba(31, 14, 112, 0.90) 24%, rgba(46, 0, 104, 0.89) 31%, rgba(32, 15, 112, 0.89) 60%, rgba(46, 0, 104, 0.90) 70%, rgba(42, 9, 116, 0.89) 86%, rgba(39, 18, 128, 0.88) 90%, #38054A 97%);
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.separate-element {
+    position: absolute;
+    width: 500px;
+    height: 750px;
+    background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
+    border-radius: 35px;
+    top: 45%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    margin-top: calc(50vh - 375px);
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-separate-element {
+    position: absolute;
+    width: 800px;
+    height: 750px;
+    background: linear-gradient(0deg, rgba(195, 46, 219, 0.4959) 5.13%, rgba(239, 220, 249, 0.4959) 54.27%);
+    border-radius: 35px;
+    top: 45%;
+    right: 10%;
+    transform: translate(50%, -50%);
+    margin-top: calc(50vh - 375px);
+    margin-right: 450px;
+}
+
+.text-style {
+    width: 671px;
+    height: 77px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 77px;
+    color: #FFFFFF;
+    text-align: center;
+    top: 10%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangle {
+    width: 300px;
+    height: 100px;
+    background: #D9D9D9;
+    border-radius: 35px;
+    margin-top: -20px;
+}
+
+.rectangle-large {
+    position: absolute;
+    width: 995px;
+    height: 209px;
+    background: #D9D9D9;
+    border-radius: 35px;
+    margin-top: -240px;
+}

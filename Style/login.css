@@ -390,20 +390,21 @@ body {
     line-height: 77px;
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .rectangle {
-    width: 250px;
-    height: 70px;
+    width: 300px;
+    height: 100px;
     background: #D9D9D9;
     border-radius: 35px;
-    margin-top: 50px;
+    margin-top: -20px; /* Ajuste de la posición del rectángulo */
 }
-.rectangle2 {
-    width: 250px;
-    height: 70px;
+
+.rectangle-large {
+    position: absolute;
+    width: 995px;
+    height: 209px;
     background: #D9D9D9;
     border-radius: 35px;
-    margin-top: 50px;
+    margin-top: -240px; /* Ajuste para posicionar más arriba */
 }

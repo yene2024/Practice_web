@@ -70,9 +70,7 @@
             margin-right: 450px;
         }
 
-        /* Estilos adicionales para el texto en el primer elemento */
         .text-style {
-            position: absolute;
             width: 671px;
             height: 77px;
             font-family: 'Inter';
@@ -81,24 +79,27 @@
             font-size: 20px;
             line-height: 77px;
             color: #FFFFFF;
+            text-align: center;
             top: 10%; /* Centramos verticalmente dentro del contenedor */
             left: 95%; /* Centramos horizontalmente dentro del contenedor */
             transform: translate(-50%, -50%); /* Ajuste para centrar el texto */
         }
 
         .rectangle {
-            width: 250px;
-            height: 70px;
+            width: 300px;
+            height: 100px;
             background: #D9D9D9;
             border-radius: 35px;
-            margin-top: 150px;
+            margin-top: -20px; /* Ajuste de la posición del rectángulo */
         }
-        .rectangle2 {
-            width: 250px;
-            height: 70px;
+
+        .rectangle-large {
+            position: absolute;
+            width: 995px;
+            height: 209px;
             background: #D9D9D9;
             border-radius: 35px;
-            margin-top: 150px;
+            margin-top: -240px; /* Ajuste para posicionar más arriba */
         }
     </style>
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
@@ -113,6 +114,7 @@
         <!-- Primer elemento aparte -->
         <div class="separate-element">
             <div class="text-style">Access Your Account</div>
+            <div class="rectangle-large"></div>
             <div class="rectangle"></div>
         </div>
         <!-- Segundo elemento aparte -->
